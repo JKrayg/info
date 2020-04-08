@@ -90,6 +90,10 @@ body {
     height: 250px;
 }
 
+#carousel-imgs {
+    height: 250px;
+}
+
 .d-block {
     height: 250px;
 }
