@@ -142,14 +142,18 @@ footer {
 #links {
     color: rgb(33, 33, 33);
     background-color: white;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 #links2 {
     color: rgb(33, 33, 33);
     font-size: 75%;
     background-color: white;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#partPort {
+    margin: 0;
 }
