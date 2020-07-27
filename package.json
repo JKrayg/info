@@ -1,11 +1,9 @@
 {
   "name": "new-portfolio",
   "version": "1.0.0",
-  "description": "Nutrition API https://michaelhernandez27.github.io/Group-Project-1-Food-Fun/",
+  "description": "Current work Portfolio",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3"
   },
   "devDependencies": {},
   "scripts": {
