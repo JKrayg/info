@@ -54,46 +54,7 @@ body {
     box-shadow: 5px 4px 12px rgba(24, 24, 24, 0.575);
 }
 
-#email-input,
-#password-input {
-    width: 50%;
-    background-color: white;
-    border-radius: 5px;
-}
 
-#submit-login {
-    margin: 5px;
-    border-radius: 5px;
-    background-color: rgba(178, 34, 34, 0.600);
-}
-
-.carousel-inner {
-    border: 3px solid rgba(178, 34, 34, 0.81);
-    box-shadow: 5px 10px 5px rgb(49, 142, 145);
-    border-radius: 5px;
-
-}
-
-#carousel-header {
-    margin: 0;
-}
-
-#carousel-p {
-    margin: 0;
-    font-size: 10px;
-}
-
-.theCarousel {
-    padding: 0;
-}
-
-.carousel-item {
-    height: 500px;
-}
-
-#carousel-imgs {
-    height: 500px;
-}
 
 .d-block {
     height: 500px;
