@@ -1,6 +1,24 @@
+
 {
+  "name": "info",
+  "version": "1.0.0",
+  "description": "about me",
+  "main": "index.js",
   "dependencies": {
-    "firebase": "^10.12.2",
+    "firebase": "^13.10.2",
     "uuid": "^9.0.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKrayg/info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKrayg/info/issues"
+  },
+  "homepage": "https://jkrayg.github.io/info/public"
 }
