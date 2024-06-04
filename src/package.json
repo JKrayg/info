@@ -1,0 +1,22 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "Current work Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^13.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKrayg/New-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKrayg/New-Portfolio/issues"
+  },
+  "homepage": "https://jkrayg.github.io/New-Portfolio/"
+}
