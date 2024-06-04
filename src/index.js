@@ -33,6 +33,9 @@ var ref = db.ref("/count/visits");
 
 // display visit count
 ref.on('value', (snapshot) => {
+    if (snapshot.val() != null) {
+        visitorCounter = snapshot.val();
+    }
     $("#visitors").text(snapshot.val());
 }, (errorObject) => {
     console.log('The read failed: ' + errorObject.name);
