@@ -1,4 +1,3 @@
-// firebase
 import { UUID as uuidv4 } from "https://unpkg.com/uuidjs@^5";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js"; 
 import { getDatabase, ref, onValue, set } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
