@@ -2,13 +2,13 @@
 import { UUID as uuidv4 } from "https://unpkg.com/uuidjs@^5";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBvXWztMwQ_DDyzOx1vHZRU5risZC6FNQw",
-    authDomain: "info-edeef.firebaseapp.com",
-    databaseURL: "https://info-edeef-default-rtdb.firebaseio.com",
-    projectId: "info-edeef",
-    storageBucket: "info-edeef.appspot.com",
-    messagingSenderId: "128630413983",
-    appId: "1:128630413983:web:9c70532e53ceb00c96a0aa"
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_URL,
+    databaseURL: "https://port-cf69a-default-rtdb.firebaseio.com",
+    projectId: "port-cf69a",
+    storageBucket: "port-cf69a.firebasestorage.app",
+    messagingSenderId: "14893034949",
+    appId: process.env.APP_ID
 };
 
 const app = firebase.initializeApp(firebaseConfig);
