@@ -1,5 +1,11 @@
 body {
-    background-color: rgb(102, 102, 102);
+    background-image: url("https://i.imgur.com/e13rAvS.png");
+    background-repeat: "no-repeat";
+    background-attachment: "fixed";
+    background-size: "cover";
+    background-position: "center";
+    background-position-x: "56%";
+    background-position-y: "52%";
 }
 
 .outer-row {
@@ -23,7 +29,7 @@ body {
 }
 
 .outer-two {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.699);
     margin-top: 5%;
     border-top: 15px solid rgba(0, 71, 163, 0.918);
     border-top-left-radius: 5px;
@@ -136,4 +142,174 @@ footer {
 
 .carousel-indicators li {
     background-color: rgba(178, 34, 34, 0.913);
+}
+
+/*-----------------------------------------
+// FIX THIS MESS
+//-----------------------------------------*/
+
+#geo-large {
+    height: 539px;
+    width: 554.4px;
+    position: absolute;
+    z-index: -1;
+    top: 11%;
+    left: 7%;
+    animation: 85000ms infinite ease-in-out clockwise;
+}
+
+#geo-med {
+    height: 171.5px;
+    width: 176.4px;
+    position: absolute;
+    z-index: -2;
+    bottom: 25%;
+    right: 15%;
+    animation: 75000ms infinite ease-in-out counterClockwise;
+}
+
+#geo-small {
+    height: 49px;
+    width: 50.4px;
+    position: absolute;
+    z-index: -2;
+    top: 30%;
+    right: 20%;
+    animation: 20000ms infinite ease-in-out counterClockwise;
+}
+
+#geo-tiny {
+    height: 24.5px;
+    width: 25.4px;
+    position: absolute;
+    z-index: -2;
+    top: 18%;
+    right: 30%;
+    animation: 7500ms infinite linear fullClockwise;
+}
+
+#geo-mini1 {
+    height: 12.25px;
+    width: 12.6px;
+    position: absolute;
+    z-index: -2;
+    top: 25%;
+    right: 36%;
+    animation: 2380ms infinite ease-in-out bounce;
+}
+
+#geo-mini2 {
+    height: 14.7px;
+    width: 15.12px;
+    position: absolute;
+    z-index: -2;
+    top: 40%;
+    right: 15%;
+    animation: 2290ms infinite ease-in-out bounce;
+}
+#geo-mini3 {
+    height: 7.35px;
+    width: 7.56px;
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    right: 30%;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+}
+#geo-mini4 {
+    height: 7.35px;
+    width: 7.56px;
+    position: absolute;
+    z-index: -2;
+    top: 10%;
+    right: 25%;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+}
+
+#geo-mini5 {
+    height: 9.8px;
+    width: 10.08px;
+    position: absolute;
+    z-index: -2;
+    top: 5%;
+    right: 45%;
+    animation: 2190ms infinite ease-in-out bounce;
+}
+
+#geo-mini6 {
+    height: 14.7px;
+    width: 15.12px;
+    position: absolute;
+    z-index: -2;
+    bottom: 5%;
+    right: 45%;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+}
+
+#geo-mini7 {
+    height: 7.35px;
+    width: 7.56px;
+    position: absolute;
+    z-index: -2;
+    bottom: 15%;
+    right: 30%;
+    animation: 2550ms infinite ease-in-out bounce;
+}
+
+#geo-mini8 {
+    height: 9.8px;
+    width: 10.08px;
+    position: absolute;
+    z-index: -2;
+    bottom: 25%;
+    right: 35%;
+    animation: 2500ms infinite ease-in-out bounce;
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes clockwise {
+    0% {
+        -webkit-transform: rotateZ(0);
+    }
+    50% {
+        -webkit-transform: rotateZ(360deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes counterClockwise {
+    0% {
+        -webkit-transform: rotateZ(0);
+    }
+    50% {
+        -webkit-transform: rotateZ(-360deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg);
+    }
+}
+
+@keyframes fullClockwise {
+    100% {
+        -webkit-transform: rotateZ(360deg);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-40%);
+    }
 }
