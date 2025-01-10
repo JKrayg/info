@@ -1,16 +1,16 @@
 body {
-    background-image: url("https://i.imgur.com/e13rAvS.png");
-    background-repeat: "no-repeat";
-    background-attachment: "fixed";
-    background-size: "cover";
-    background-position: "center";
-    background-position-x: "56%";
-    background-position-y: "52%";
+    background-image: url(https://i.imgur.com/e13rAvS.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-position-x: 5%;
+    background-position-y: 52%;
 }
 
 .outer-row {
     background-color: white;
-    border-bottom: 15px solid rgba(0, 71, 163, 0.918);
+    border-bottom: 15px solid #0f778a;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 5px 4px 12px rgb(24, 24, 24);
@@ -29,12 +29,12 @@ body {
 }
 
 .outer-two {
-    background-color: rgba(255, 255, 255, 0.699);
+    background-color: rgba(255, 255, 255, 0.795);
     margin-top: 5%;
-    border-top: 15px solid rgba(0, 71, 163, 0.918);
+    border-top: 15px solid #0f778a;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 15px solid rgba(0, 71, 163, 0.918);
+    border-bottom: 15px solid #0f778a;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 5px 4px 12px rgb(24, 24, 24);
@@ -93,7 +93,7 @@ body {
 }
 
 footer {
-    border-top: 5px solid rgba(0, 71, 163, 0.918);
+    border-top: 5px solid #0f778a;
     background-color: rgba(218, 218, 218, 0.81);
     position: fixed;
     height: 50px;
