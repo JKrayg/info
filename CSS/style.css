@@ -19,6 +19,10 @@ body {
     height: inherit;
     padding-bottom: 10px;
     padding-top: 10px;
+    max-width: 75%;
+    width: 75%;
+    position: relative;
+    margin: auto;
 }
 
 .inner1 {
@@ -42,6 +46,10 @@ body {
     box-shadow: 5px 4px 12px rgb(99, 99, 99);
     padding: 10%;
     height: inherit;
+    max-width: 75%;
+    width: 75%;
+    position: relative;
+    margin: 7% auto;
 }
 
 .list-group {
@@ -151,46 +159,56 @@ footer {
 //-----------------------------------------*/
 
 #geo-large {
-    max-width: 50%;
-    width: 50%;
+    max-height: auto;
+    height: fit-content;
+    max-width: 38%;
+    width: 38%;
     position: absolute;
     z-index: -1;
-    top: 11%;
+    top: 8%;
     left: 7%;
-    animation: 75000ms infinite ease-in-out clockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
+    animation: 75000ms infinite ease-in-out clockwise, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-med {
+    max-height: auto;
+    height: fit-content;
     max-width: 15%;
     width: 15%;
     position: absolute;
     z-index: -2;
-    bottom: 25%;
-    right: 15%;
-    animation: 50000ms infinite ease-in-out counterClockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+    bottom: 34%;
+    right: 27%;
+    animation: 50000ms infinite ease-in-out counterClockwise, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 
 #geo-small {
+    max-height: auto;
+    height: fit-content;
     max-width: 7%;
     width: 7%;
     position: absolute;
-    z-index: -2;
-    top: 30%;
-    right: 20%;
-    animation: 20000ms infinite ease-in-out counterClockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
+    z-index: -3;
+    top: 32%;
+    right: 24%;
+    animation: 20000ms infinite ease-in-out counterClockwise, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-tiny {
+    max-height: auto;
+    height: fit-content;
     max-width: 4%;
     width: 4%;
     position: absolute;
     z-index: -2;
     top: 18%;
     right: 30%;
-    animation: 7500ms infinite linear fullClockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+    animation: 7500ms infinite linear fullClockwise, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 
 #geo-mini1 {
+    max-height: auto;
+    height: fit-content;
     max-width: 1%;
     width: 1%;
     position: absolute;
@@ -201,64 +219,78 @@ footer {
 }
 
 #geo-mini2 {
+    max-height: auto;
+    height: fit-content;
     max-width: 1.5%;
     width: 1.5%;
     position: absolute;
     z-index: -2;
     top: 40%;
     right: 15%;
-    animation: 2290ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+    animation: 2290ms infinite ease-in-out bounce, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 #geo-mini3 {
+    max-height: auto;
+    height: fit-content;
     max-width: 1%;
     width: 1%;
     position: absolute;
     z-index: -2;
     top: 50%;
     right: 30%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight, 3000ms infinite ease-in-out bounce;
+    animation: 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight, 3000ms infinite ease-in-out bounce;
 }
 #geo-mini4 {
+    max-height: auto;
+    height: fit-content;
     max-width: 1.6%;
     width: 1.6%;
     position: absolute;
     z-index: -2;
     top: 10%;
     right: 25%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft, 3500ms infinite ease-in-out bounce;
+    animation: 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft, 3500ms infinite ease-in-out bounce;
 }
 
 #geo-mini5 {
+    max-height: auto;
+    height: fit-content;
     max-width: 1%;
     width: 1%;
     position: absolute;
     z-index: -2;
     top: 5%;
     right: 45%;
-    animation: 2190ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
+    animation: 2190ms infinite ease-in-out bounce, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-mini6 {
+    max-height: auto;
+    height: fit-content;
     max-width: 2%;
     width: 2%;
     position: absolute;
     z-index: -2;
     bottom: 37%;
     right: 72%;
-    animation: 15000ms infinite ease-in-out clockwise;
+    animation: 15000ms infinite ease-in-out fullClockwise;
 }
 
 #geo-mini7 {
+    max-height: auto;
+    height: fit-content;
     max-width: 0.75%;
     width: 0.75%;
     position: absolute;
     z-index: -2;
     bottom: 15%;
     right: 30%;
-    animation: 2550ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
+    animation: 2550ms infinite ease-in-out bounce, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-mini8 {
+    max-height: auto;
+    height: fit-content;
     max-width: 0.5%;
     width: 0.5%;
     position: absolute;
@@ -266,6 +298,85 @@ footer {
     bottom: 25%;
     right: 35%;
     animation: 2500ms infinite ease-in-out bounce, 75000ms infinite ease-in-out counterClockwise;
+}
+
+/*-----------------------------------------
+// FIX THIS MESS
+//-----------------------------------------*/
+
+#geoImgStyle {
+    position: fixed;
+    top: 39%;
+    left: 9.5%;
+    max-height: auto;
+    max-width: 6%;
+    width: 6%;
+    z-index: 1;
+    animation: 75000ms infinite ease-in-out counterClockwise, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0.2s 1 slideInLeft;
+}
+
+#geoImgStyle2 {
+    position: fixed;
+    top: 4.7%;
+    right: 9%;
+    max-height: auto;
+    max-width: 4%;
+    width: 4%;
+    animation: 1.35s cubic-bezier(0, 0, 0, 1.27) 0.35s 1 slideInLeft;
+}
+
+#geoImgStyle3 {
+    position: fixed;
+    top: 72%;
+    right: 14%;
+    max-height: auto;
+    max-width: 10%;
+    width: 10%;
+    animation: 1.35s cubic-bezier(0, 0, 0, 1.27) 0.35s 1 slideInLeft;
+}
+
+#ringImgStyle {
+    position: fixed;
+    top: 40%;
+    left: 3%;
+    max-height: auto;
+    max-width: 20%;
+    width: 20%;
+    z-index: 1;
+    animation: 4085ms infinite ease-in-out example;
+    /* animation: 1s cubic-bezier(0, 0, 0, 1.27) 0s 1 slideInLeft; */
+}
+
+#ringImgStyle2 {
+    position: fixed;
+    top: 5%;
+    right: 4%;
+    max-height: auto;
+    max-width: 15%;
+    width: 15%;
+    animation: 4080ms infinite ease-in-out example;
+    /* animation: 1s cubic-bezier(0, 0, 0, 1.27) 0s 1 slideInLeft; */
+}
+
+#ringImgStyle3 {
+    position: fixed;
+    top: 60%;
+    right: 1%;
+    max-height: auto;
+    max-width: 40%;
+    width: 40%;
+    animation: 4075ms infinite ease-in-out example;
+    /* animation: 1s cubic-bezier(0, 0, 0, 1.27) 0s 1 slideInLeft; */
+}
+
+
+@keyframes example {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-15%);
+    }
 }
 
 @keyframes slideInLeft {
