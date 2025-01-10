@@ -1,7 +1,6 @@
 import { UUID as uuidv4 } from "https://unpkg.com/uuidjs@^5";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-import { getDatabase, ref, onValue, set, runTransaction } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
-
+import { getDatabase, ref, onValue, set, runTransaction} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDutI34Ecux5V7LNJuB0yI0g2JymgTRskQ",
@@ -30,7 +29,6 @@ function readCookie(name) {
   return null;
 }
 
-var visitorCounter = 0;
 const reff = ref(db, "/count/visits");
 
 onValue(reff, (snapshot) => {
@@ -45,6 +43,7 @@ onValue(reff, (snapshot) => {
 
 // on click, if the user does not have an ID in cookies,
 // allow them to add 1 to the visit counter
+// create ID and add to cookies
 // do nothing if their ID is in cookies
 $(document).ready(function () {
 

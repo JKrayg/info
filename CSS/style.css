@@ -1,5 +1,4 @@
 body {
-    /* background-image: url(https://i.imgur.com/ZFDWVuf.png); */
     background: linear-gradient(
       rgba(0, 0, 0, 0.158), /* Black overlay with 50% opacity */
       rgba(0, 0, 0, 0.685)
@@ -64,20 +63,6 @@ body {
     border-color: rgba(0, 111, 163, 0.274);
     padding: 25px;
 }
-
-/* footer {
-    border-top: 1px solid #009c75;
-    background-color: rgba(218, 218, 218, 0.81);
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.foot {
-    text-align: center;
-} */
 
 
 /*-----------------------------------------
