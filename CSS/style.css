@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-position-x: 56%;
     background-position-y: 52%;
+    overflow-x: hidden;
 }
 
 .outer-row {
