@@ -1,12 +1,12 @@
 body {
     background-image: url(https://i.imgur.com/e13rAvS.png);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-position-x: 56%;
     background-position-y: 52%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .outer-row {
@@ -151,8 +151,8 @@ footer {
 //-----------------------------------------*/
 
 #geo-large {
-    height: 539px;
-    width: 554.4px;
+    max-width: 50%;
+    width: 50%;
     position: absolute;
     z-index: -1;
     top: 11%;
@@ -161,8 +161,8 @@ footer {
 }
 
 #geo-med {
-    height: 171.5px;
-    width: 176.4px;
+    max-width: 15%;
+    width: 15%;
     position: absolute;
     z-index: -2;
     bottom: 25%;
@@ -171,8 +171,8 @@ footer {
 }
 
 #geo-small {
-    height: 49px;
-    width: 50.4px;
+    max-width: 7%;
+    width: 7%;
     position: absolute;
     z-index: -2;
     top: 30%;
@@ -181,8 +181,8 @@ footer {
 }
 
 #geo-tiny {
-    height: 24.5px;
-    width: 25.4px;
+    max-width: 4%;
+    width: 4%;
     position: absolute;
     z-index: -2;
     top: 18%;
@@ -191,8 +191,8 @@ footer {
 }
 
 #geo-mini1 {
-    height: 12.25px;
-    width: 12.6px;
+    max-width: 1%;
+    width: 1%;
     position: absolute;
     z-index: -2;
     top: 25%;
@@ -201,8 +201,8 @@ footer {
 }
 
 #geo-mini2 {
-    height: 14.7px;
-    width: 15.12px;
+    max-width: 1.5%;
+    width: 1.5%;
     position: absolute;
     z-index: -2;
     top: 40%;
@@ -210,27 +210,27 @@ footer {
     animation: 2290ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 #geo-mini3 {
-    height: 7.35px;
-    width: 7.56px;
+    max-width: 1%;
+    width: 1%;
     position: absolute;
     z-index: -2;
     top: 50%;
     right: 30%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight, 2500ms infinite ease-in-out bounce;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight, 3000ms infinite ease-in-out bounce;
 }
 #geo-mini4 {
-    height: 7.35px;
-    width: 7.56px;
+    max-width: 1.6%;
+    width: 1.6%;
     position: absolute;
     z-index: -2;
     top: 10%;
     right: 25%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft, 2500ms infinite ease-in-out bounce;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft, 3500ms infinite ease-in-out bounce;
 }
 
 #geo-mini5 {
-    height: 9.8px;
-    width: 10.08px;
+    max-width: 1%;
+    width: 1%;
     position: absolute;
     z-index: -2;
     top: 5%;
@@ -239,8 +239,8 @@ footer {
 }
 
 #geo-mini6 {
-    height: 14.7px;
-    width: 15.12px;
+    max-width: 2%;
+    width: 2%;
     position: absolute;
     z-index: -2;
     bottom: 37%;
@@ -249,8 +249,8 @@ footer {
 }
 
 #geo-mini7 {
-    height: 7.35px;
-    width: 7.56px;
+    max-width: 0.75%;
+    width: 0.75%;
     position: absolute;
     z-index: -2;
     bottom: 15%;
@@ -259,8 +259,8 @@ footer {
 }
 
 #geo-mini8 {
-    height: 9.8px;
-    width: 10.08px;
+    max-width: 0.5%;
+    width: 0.5%;
     position: absolute;
     z-index: -2;
     bottom: 25%;
