@@ -6,7 +6,6 @@ body {
     background-position: center;
     background-position-x: 56%;
     background-position-y: 52%;
-    /* overflow-x: hidden; */
 }
 
 .outer-row {
@@ -159,8 +158,6 @@ footer {
 //-----------------------------------------*/
 
 #geo-large {
-    max-height: auto;
-    height: fit-content;
     max-width: 38%;
     width: 38%;
     position: absolute;
@@ -171,8 +168,6 @@ footer {
 }
 
 #geo-med {
-    max-height: auto;
-    height: fit-content;
     max-width: 15%;
     width: 15%;
     position: absolute;
@@ -183,8 +178,6 @@ footer {
 }
 
 #geo-small {
-    max-height: auto;
-    height: fit-content;
     max-width: 7%;
     width: 7%;
     position: absolute;
@@ -195,8 +188,6 @@ footer {
 }
 
 #geo-tiny {
-    max-height: auto;
-    height: fit-content;
     max-width: 4%;
     width: 4%;
     position: absolute;
@@ -207,8 +198,6 @@ footer {
 }
 
 #geo-mini1 {
-    max-height: auto;
-    height: fit-content;
     max-width: 1%;
     width: 1%;
     position: absolute;
@@ -219,8 +208,6 @@ footer {
 }
 
 #geo-mini2 {
-    max-height: auto;
-    height: fit-content;
     max-width: 1.5%;
     width: 1.5%;
     position: absolute;
@@ -230,8 +217,6 @@ footer {
     animation: 2290ms infinite ease-in-out bounce, 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 #geo-mini3 {
-    max-height: auto;
-    height: fit-content;
     max-width: 1%;
     width: 1%;
     position: absolute;
@@ -241,8 +226,6 @@ footer {
     animation: 1.35s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight, 3000ms infinite ease-in-out bounce;
 }
 #geo-mini4 {
-    max-height: auto;
-    height: fit-content;
     max-width: 1.6%;
     width: 1.6%;
     position: absolute;
@@ -253,8 +236,6 @@ footer {
 }
 
 #geo-mini5 {
-    max-height: auto;
-    height: fit-content;
     max-width: 1%;
     width: 1%;
     position: absolute;
@@ -265,8 +246,6 @@ footer {
 }
 
 #geo-mini6 {
-    max-height: auto;
-    height: fit-content;
     max-width: 2%;
     width: 2%;
     position: absolute;
@@ -277,8 +256,6 @@ footer {
 }
 
 #geo-mini7 {
-    max-height: auto;
-    height: fit-content;
     max-width: 0.75%;
     width: 0.75%;
     position: absolute;
@@ -289,8 +266,6 @@ footer {
 }
 
 #geo-mini8 {
-    max-height: auto;
-    height: fit-content;
     max-width: 0.5%;
     width: 0.5%;
     position: absolute;
