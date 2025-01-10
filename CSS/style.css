@@ -9,11 +9,12 @@ body {
 }
 
 .outer-row {
-    background-color: white;
-    border-bottom: 15px solid #0f778a;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-bottom: 3px solid #0f8a84;
+    border-right: 3px solid #0f8a84;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: 5px 4px 12px rgb(24, 24, 24);
+    box-shadow: 5px 4px 12px rgb(99, 99, 99);
     height: inherit;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -31,13 +32,13 @@ body {
 .outer-two {
     background-color: rgba(255, 255, 255, 0.795);
     margin-top: 5%;
-    border-top: 15px solid #0f778a;
+    border-bottom: 3px solid #0f8a84;
+    border-right: 3px solid #0f8a84;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 15px solid #0f778a;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: 5px 4px 12px rgb(24, 24, 24);
+    box-shadow: 5px 4px 12px rgb(99, 99, 99);
     padding: 10%;
     height: inherit;
 }
@@ -93,7 +94,7 @@ body {
 }
 
 footer {
-    border-top: 5px solid #0f778a;
+    border-top: 3px solid #009c75;
     background-color: rgba(218, 218, 218, 0.81);
     position: fixed;
     height: 50px;
@@ -155,7 +156,7 @@ footer {
     z-index: -1;
     top: 11%;
     left: 7%;
-    animation: 85000ms infinite ease-in-out clockwise;
+    animation: 75000ms infinite ease-in-out clockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-med {
@@ -165,7 +166,7 @@ footer {
     z-index: -2;
     bottom: 25%;
     right: 15%;
-    animation: 75000ms infinite ease-in-out counterClockwise;
+    animation: 50000ms infinite ease-in-out counterClockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 
 #geo-small {
@@ -175,7 +176,7 @@ footer {
     z-index: -2;
     top: 30%;
     right: 20%;
-    animation: 20000ms infinite ease-in-out counterClockwise;
+    animation: 20000ms infinite ease-in-out counterClockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-tiny {
@@ -185,7 +186,7 @@ footer {
     z-index: -2;
     top: 18%;
     right: 30%;
-    animation: 7500ms infinite linear fullClockwise;
+    animation: 7500ms infinite linear fullClockwise, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 
 #geo-mini1 {
@@ -205,7 +206,7 @@ footer {
     z-index: -2;
     top: 40%;
     right: 15%;
-    animation: 2290ms infinite ease-in-out bounce;
+    animation: 2290ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
 }
 #geo-mini3 {
     height: 7.35px;
@@ -214,7 +215,7 @@ footer {
     z-index: -2;
     top: 50%;
     right: 30%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight, 2500ms infinite ease-in-out bounce;
 }
 #geo-mini4 {
     height: 7.35px;
@@ -223,7 +224,7 @@ footer {
     z-index: -2;
     top: 10%;
     right: 25%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft, 2500ms infinite ease-in-out bounce;
 }
 
 #geo-mini5 {
@@ -233,7 +234,7 @@ footer {
     z-index: -2;
     top: 5%;
     right: 45%;
-    animation: 2190ms infinite ease-in-out bounce;
+    animation: 2190ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-mini6 {
@@ -241,9 +242,9 @@ footer {
     width: 15.12px;
     position: absolute;
     z-index: -2;
-    bottom: 5%;
-    right: 45%;
-    animation: 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInLeft;
+    bottom: 37%;
+    right: 72%;
+    animation: 15000ms infinite ease-in-out clockwise;
 }
 
 #geo-mini7 {
@@ -253,7 +254,7 @@ footer {
     z-index: -2;
     bottom: 15%;
     right: 30%;
-    animation: 2550ms infinite ease-in-out bounce;
+    animation: 2550ms infinite ease-in-out bounce, 1s cubic-bezier(0, 0, 0.51, 1.64) 0s 1 slideInRight;
 }
 
 #geo-mini8 {
@@ -263,12 +264,21 @@ footer {
     z-index: -2;
     bottom: 25%;
     right: 35%;
-    animation: 2500ms infinite ease-in-out bounce;
+    animation: 2500ms infinite ease-in-out bounce, 75000ms infinite ease-in-out counterClockwise;
 }
 
 @keyframes slideInLeft {
     0% {
-      transform: translateX(-50%);
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+      transform: translateX(200%);
     }
     100% {
       transform: translateX(0);
