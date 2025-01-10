@@ -1,12 +1,12 @@
-/* body {
+body {
     background-image: url(https://i.imgur.com/e13rAvS.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 250%;
+    background-size: 2553.6px 1436.4px;
     background-position: center;
     background-position-x: 56%;
     background-position-y: 52%;
-} */
+}
 
 .outer-row {
     background-color: rgba(255, 255, 255, 0.800);
@@ -308,7 +308,6 @@ footer {
     max-height: auto;
     max-width: 10%;
     width: 10%;
-    z-index: 1;
     animation: 1.35s cubic-bezier(0, 0, 0, 1.27) 0.35s 1 slideInLeft;
 }
 
@@ -343,7 +342,6 @@ footer {
     max-height: auto;
     max-width: 40%;
     width: 40%;
-    z-index: 1;
     animation: 4075ms infinite ease-in-out example;
     /* animation: 1s cubic-bezier(0, 0, 0, 1.27) 0s 1 slideInLeft; */
 }
